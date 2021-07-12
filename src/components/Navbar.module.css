@@ -5,7 +5,67 @@
     width: 100%;
     min-height: 50px;
     max-height: 70px;
-    background-color: rgba(50,150,300,0.5);
+    background-color: white;
+    box-shadow: inset 0 -1px 0 0 #fff, 0 1px 5px rgb(0 0 0 / 10%);
     z-index: 2;
 
+}
+
+.mainDiv {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.imageLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbarImg {
+    width: 38px;
+    height: 38px;
+
+}
+
+.navbarItems {
+    display: flex;
+    align-items: stretch;
+
+}
+
+.navTitle {
+    padding: .5rem .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBurger {
+    cursor: pointer;
+    display: block;
+    height: 60px;
+    position: relative;
+    width: 4.25rem;
+    right: 10px;
+    margin-left: auto;
+}
+.navBurger > span {
+    background-color: black;
+    display: block;
+    height: 1px;
+    width: 16px;
+    left: calc(50% - 8px);
+    position: absolute;
+}
+.navBurger span:nth-child(1) {
+    top: calc(50% - 6px);
+}
+
+.navBurger span:nth-child(2) {
+    top: calc(50% - 1px);
+}
+
+.navBurger span:nth-child(3) {
+    top: calc(50% + 4px);
 }
