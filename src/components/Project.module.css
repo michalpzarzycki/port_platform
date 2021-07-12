@@ -1,0 +1,16 @@
+.projectContainer {
+    margin-bottom: 20px;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    min-height: 1px;
+    width: 100%;
+}
+
+
+.article {
+    box-shadow:  0 0 1px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.02);
+    border-radius: 3px;
+    background-color: white;
+    height: 100%;
+}

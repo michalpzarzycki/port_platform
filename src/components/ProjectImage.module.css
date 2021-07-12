@@ -1,0 +1,8 @@
+.projectImageContainer {
+    width: 100%;
+}
+
+.projectImg {
+    object-fit: cover;
+    max-width: 100%;
+}

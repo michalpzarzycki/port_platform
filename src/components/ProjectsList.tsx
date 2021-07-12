@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import Project from './Project'
 import styles from './ProjectList.module.css'
 //create some help in array creation
 function createAnArray(length: number, mapCallback = (x: any) => x) {
@@ -14,7 +15,7 @@ function ProjectsList() {
     const [projects, setProjects] = useState(createAnArray(15))
     return (
         <div className={styles.projectsContainer}>
-           {projects.map((project, idx) => (<div>PROJECT{ idx}</div>))}
+           {projects.map((project, idx) => <Project />)}
         </div>
     )
 }
