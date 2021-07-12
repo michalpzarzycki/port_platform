@@ -3,6 +3,19 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 80px;
     min-height: calc(100vh - 70px - 70px);
+}
+
+
+@media (min-width: 800px) {
+    .projectsContainer {
+        margin: 80px 200px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .projectsContainer {
+        margin: 80px 400px 0;
+    }
 }
