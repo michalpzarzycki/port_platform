@@ -10,6 +10,14 @@ function Navbar() {
                         <img className={styles.navbarImg} src="https://images.pexels.com/photos/7356/startup-photos-7356.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
                     </a>
                     <a className={styles.navTitle}>Projets</a>
+                    <div className={styles.navStart}>
+                    <div><a>LINK</a></div>
+                    <div><a>LINK</a></div>
+                    <div><a>LINK</a></div>
+                    <div><a>LINK</a></div>
+                    <div><a>LINK</a></div>
+                    <div><a>LINK</a></div>
+                    </div>
                     <div className={styles.navBurger} onClick={() => setIsMenuOpen(!isMenuOpen)}>
                         <span style={{transform:  isMenuOpen ? "translateY(5px) rotate(45deg)" : ""}}/>
                         <span style={{opacity:  isMenuOpen ? "0" : "1"}}/>
