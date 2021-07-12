@@ -69,3 +69,24 @@
 .navBurger span:nth-child(3) {
     top: calc(50% + 4px);
 }
+
+.navMenu {
+    display: none;
+    max-height: calc(100vh - 3.25rem);
+    overflow: auto;
+    background-color: #fff;
+    -webkit-box-shadow: 0 8px 16px rgb(10 10 10 / 10%);
+    box-shadow: 0 8px 16px rgb(10 10 10 / 10%);
+    padding: .5rem 0;
+}
+.activeMenu {
+    display: block;
+}
+.navMenu > a {
+    color: #4a4a4a;
+    display: block;
+    line-height: 1.5;
+    padding: .5rem .6rem;
+    position: relative;
+  
+}
