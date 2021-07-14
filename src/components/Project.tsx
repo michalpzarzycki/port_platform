@@ -3,13 +3,14 @@ import styles from './Project.module.css'
 import ProjectImage from './ProjectImage'
 import ProjectWrapper from './ProjectWrapper'
 
-function Project() {
+function Project({id, project}: any) {
+    const {name, repository, img, demo, stack} = project
     return (
         <div className={styles.projectContainer}>
-            <Link to="/article/5">
+            <Link to={`/article/${id}`}>
             <article className={styles.article}>
                 <ProjectImage />
-                <ProjectWrapper />
+                <ProjectWrapper title={name} stack={stack}/>
             </article>
             </Link>
         </div>

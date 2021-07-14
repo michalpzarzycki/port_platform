@@ -35,3 +35,22 @@
     letter-spacing: .5px;
     text-transform: uppercase;
 }
+.projectBtnsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectBtn {
+    padding: 5px 15px;
+    background-color: skyblue;
+    width: 120px;
+    margin: 0 5px;
+    border: 0px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all ease-in-out 200ms;
+}
+ .projectBtn:hover {
+     background-color: blue;
+ }
